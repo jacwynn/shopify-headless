@@ -97,9 +97,17 @@ export class ShopProvider extends Component {
 		});
 	};
 
-	// closeMenu = () => {};
+	closeMenu = () => {
+		this.setState({
+			isMenuOpen: false,
+		});
+	};
 
-	// openMenu = () => {};
+	openMenu = () => {
+		this.setState({
+			isMenuOpen: true,
+		});
+	};
 
 	render() {
 		console.log(this.state.checkout);

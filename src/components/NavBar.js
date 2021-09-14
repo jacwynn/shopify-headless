@@ -7,7 +7,7 @@ import { ShopContext } from "../context/shopContext";
 
 const NavBar = () => {
 	//destructing our functions for shop context
-	const { openCart, openMenu, closeMenu, checkout } = useContext(ShopContext);
+	const { openCart, openMenu, checkout } = useContext(ShopContext);
 
 	return (
 		<Flex

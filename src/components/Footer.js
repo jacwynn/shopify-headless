@@ -31,7 +31,11 @@ const Footer = () => {
 					p="1rem"
 				>
 					Copyright{" "}
-					<a href="https://wynnsolutions.co" target="_blank">
+					<a
+						href="https://wynnsolutions.co"
+						target="_blank"
+						rel="noreferrer"
+					>
 						www.wynnsolutions.co
 					</a>
 				</Text>

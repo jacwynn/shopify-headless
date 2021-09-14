@@ -8,11 +8,6 @@ import {
 	DrawerFooter,
 	DrawerHeader,
 	DrawerOverlay,
-	Box,
-	Button,
-	Flex,
-	Grid,
-	Image,
 	Text,
 	VStack,
 } from "@chakra-ui/react";
